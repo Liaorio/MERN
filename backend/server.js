@@ -12,7 +12,7 @@ const router = express.Router();
 
 // this is our MongoDB database
 const dbRoute =
-    'mongodb+srv://liaotest:merntest@customer-3b0xz.mongodb.net/customers';
+    'mongodb://ali:mern123456@ds253348.mlab.com:53348/ali30-leapdb';
 
 // connects our back end code with the database
 mongoose.connect(dbRoute, {
